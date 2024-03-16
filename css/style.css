@@ -1,0 +1,44 @@
+h3 {
+    margin: 1em 0;
+    font-size: 1.5em; /* Increase font size */
+    color: #333; /* Set font color */
+    border-bottom: 2px solid #ccc; /* Add a bottom border */
+    padding-bottom: 0.5em; /* Add padding below the heading */
+}
+
+form {
+    margin-bottom: 1em;
+    padding: 1em; /* Add padding inside the form */
+    border: 1px solid #ccc; /* Add a border around the form */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    background-color: #f9f9f9; /* Set background color */
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%; /* Make inputs take full width */
+    padding: 0.5em; /* Add padding inside inputs */
+    margin-bottom: 0.5em; /* Add space between inputs */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 3px; /* Add border radius */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+/* Style form submit button */
+input[type="submit"] {
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    padding: 0.5em 1em; /* Add padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 3px; /* Add border radius */
+    font-size: 1em; /* Set button font size */
+}
+
+/* Change button color on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
